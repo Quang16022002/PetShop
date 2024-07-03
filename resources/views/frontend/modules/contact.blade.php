@@ -90,7 +90,7 @@
                                 <i class="fa fa-envelope-open"></i>
                                 <h4 class="title">Email:</h4>
                             </div>
-                            <p><a href="mailto:info@yourwebsite.com">group2@st.phenikaa-uni.edu.vn</a></p>
+                            <p><a href="mailto:info@yourwebsite.com">group1@st.phenikaa-uni.edu.vn</a></p>
                             <div class="single-info">
                                 <i class="fa fa-location-arrow"></i>
                                 <h4 class="title">Địa chỉ:</h4>

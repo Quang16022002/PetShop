@@ -4,7 +4,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Danh sách sản phẩm</h1>
+                <h1>Danh sách thú cưng</h1>
             </div>
             <div class="col-sm-6">
                 <form action="" class="form-inline">
@@ -34,7 +34,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Bảng sản phẩm</h3>
+                        <h3 class="card-title">Bảng thú cưng</h3>
                         <a href="{{Route('product.create')}}" class="btn btn-success float-right">+ Thêm</a>
 
                     </div>

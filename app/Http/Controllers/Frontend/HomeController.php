@@ -25,9 +25,9 @@ class HomeController extends Controller
     {
         $data = ProductModel::orderByDesc('created_at')->take(2)->get();
         
-        $data_pk = DB::table('cat as c')
+        $data_p = DB::table('cat as c')
             ->join('products as p', 'p.id_cat', '=', 'c.id')
-            ->where('c.id_parent', 4)
+            ->where('c.id_parent', 16)
             ->select([
                 'p.id',
                 'p.name_product',
@@ -40,9 +40,9 @@ class HomeController extends Controller
             ->take(6)
             ->get();
 
-            $data_gd = DB::table('cat as c')
+            $data_c = DB::table('cat as c')
             ->join('products as p', 'p.id_cat', '=', 'c.id')
-            ->where('c.id_parent', 5)
+            ->where('c.id_parent', 16)
             ->select([
                 'p.id',
                 'p.name_product',
@@ -55,9 +55,9 @@ class HomeController extends Controller
             ->take(10)
             ->get();
 
-            $data_sd = DB::table('cat as c')
+            $data_pk = DB::table('cat as c')
             ->join('products as p', 'p.id_cat', '=', 'c.id')
-            ->where('c.id_parent', 1)
+            ->where('c.id_parent', 20)
             ->select([
                 'p.id',
                 'p.name_product',
@@ -70,9 +70,9 @@ class HomeController extends Controller
             ->take(6)
             ->get();
 
-            $data_cd = DB::table('cat as c')
+            $data_m = DB::table('cat as c')
             ->join('products as p', 'p.id_cat', '=', 'c.id')
-            ->where('c.id_parent', 4)
+            ->where('c.id_parent', 18)
             ->select([
                 'p.id',
                 'p.name_product',
@@ -99,7 +99,7 @@ class HomeController extends Controller
                 'p.image'
             ])
             ->get();
-        return view('frontend.home', compact('data', 'data_pk','data_gd','data_cd','data_sd', 'article', ));
+        return view('frontend.home', compact('data', 'data_p','data_c','data_m','data_pk', 'article', ));
     }
 
     public function register()
@@ -182,9 +182,7 @@ class HomeController extends Controller
         return view('frontend.modules.shopping-cart', compact('carts'));
     }
 
-    public function showCart(){
-        
-    }
+   
 
     public function cart_store(Request $request){
       

@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-main col-sm-9">
                 <div class="page-title">
-                    <h2 class="bantin">BẢN TIN Y TẾ</h2>
+                    <h2 class="bantin">BẢN TIN SHOPPET</h2>
                 </div>
                 <div class="blog-wrapper" id="main">
                     <div class="posts-isotope row">
@@ -77,12 +77,7 @@
                         </div>
                     </div>
 
-                    <div class="popular-posts widget widget__sidebar wow" id="recent-posts-4">
-                        
-                        <div class="widget-content">
-                            <img src="frontend/images/slide11.png" alt="">
-                        </div>
-                    </div>
+                    
                    
                     
                 

@@ -5,9 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Siêu thị Y Tế</title>
-<link rel="icon" href="https://yt3.googleusercontent.com/ytc/AOPolaRvZQ1HezYCw--FbtWf3csm7fl1h2MWdrXCwIME=s900-c-k-c0x00ffffff-no-rj" type="image/x-icon" />
-<link rel="shortcut icon" href="https://yt3.googleusercontent.com/ytc/AOPolaRvZQ1HezYCw--FbtWf3csm7fl1h2MWdrXCwIME=s900-c-k-c0x00ffffff-no-rj" type="image/x-icon" />
+<title>Shop Pet</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href= "{{asset('frontend/css/bootstrap.min.css')}}" type="text/css" >
 <link rel="stylesheet" href= "{{asset('frontend/css/style.css')}}" type="text/css" >

@@ -13,7 +13,7 @@ class ArticleController extends Controller
         $this->middleware('auth');
     }
     /**
-     * Display a listing of the resource.
+
      *
      * @return \Illuminate\Http\Response
      */
@@ -22,12 +22,11 @@ class ArticleController extends Controller
         $perPage = $request->has('perPage') ? $request->perPage : 6;
         $data = ArticleModel::orderBy('created_at', 'DESC')->search()->paginate($perPage);
         return view('backend.modules.article.index', ['listAr' => $data])
-        ->with('title', 'Danh sach danh muc san pham' );
+        ->with('title', 'Danh sach bài viết' );
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
+
      * @return \Illuminate\Http\Response
      */
     public function create()
@@ -37,7 +36,7 @@ class ArticleController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -93,7 +92,7 @@ class ArticleController extends Controller
     }
 
     /**
-     * Display the specified resource.
+
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -104,7 +103,7 @@ class ArticleController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -116,7 +115,7 @@ class ArticleController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -195,8 +194,7 @@ class ArticleController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
-     *
+
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */

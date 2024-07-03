@@ -26,7 +26,7 @@
                         @csrf
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="">Tên sản phẩm</label>
+                                <label for="">Tên thú cưng</label>
                                 <input type="text" class="form-control" name="name_product" required="">
                             </div>
                             <div class="form-group">

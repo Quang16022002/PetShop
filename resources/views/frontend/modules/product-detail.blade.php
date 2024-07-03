@@ -50,11 +50,11 @@
                                         <div class="BH-list"> <img src="https://sieuthiyte.com.vn/data/images/Icon/icon-hoan-tien-sithyte.png" alt=""><p style="color: rgb(10,88,163); font-size: 15px">Hoàn tiền 150% nếu phát hiện hàng giả</p></div>
                                         <div class="BH-list">
                                             <img src="https://sieuthiyte.com.vn/data/images/Icon/icon-bao-hanh-styt.png" alt="">
-                                            <p style="color: rgb(139,184,91) ; font-size: 15px">Bảo hành nhanh chóng</p>
+                                            <p style="color: rgb(139,184,91) ; font-size: 15px">Hỗ trợ nhanh chóng</p>
                                         </div>
                                         <div class="BH-list">
                                             <img src="https://sieuthiyte.com.vn/data/images/Icon/icon-chung-nhan.png" alt="">
-                                            <p style="color: rgb(245,159,84); font-size: 15px">Cam kết hàng chính hãng 100%</p>
+                                            <p style="color: rgb(245,159,84); font-size: 15px">Cam kết rõ nguồn gốc</p>
                                         </div>
                                         <div class="BH-list">
                                             <img src="https://sieuthiyte.com.vn/data/images/Icon/free-ship-si.png" alt="">
@@ -63,15 +63,7 @@
 
                                         </p>
                                     </div>
-                                    <div class="countdown-container">
-                                        <div class="countdown-header">
-                                            <div class="iconQT"><img src="https://sieuthiyte.com.vn/data/images/Icon/icon-qua-tang.gif" alt="">
-                                            <p>Quà Tặng</p></div>
-                                            <p> Nhiệt Kế Berrcom JXB</p>
-                                        </div>
-                                      
-                                        <div class="countdown-timer" id="countdown-timer">00:00:00</div>
-                                    </div>
+                                  
                             
                                     
                                 </div>
@@ -89,7 +81,7 @@
                                         </button>
                                     </div>
 
-                                    <div class="shop">
+                                    {{-- <div class="shop">
                                         
                                         <h1><img src="https://sieuthiyte.com.vn/themes/images/icon_location.png" alt="">HỆ THỐNG CỬA HÀNG</h1>
                                         <ul>
@@ -107,7 +99,7 @@
                                             <li><span>0999898765</span> - 12 Trần Đạo , Q. 5, Hồ Chí Minh</li>
                                             <li><span>0999898765</span> - 124 Khánh Hội, Phường 4, Quận 3</li>
                                         </ul> 
-                                    </div>
+                                    </div> --}}
                                     
                                 </div>
                             </div>
@@ -117,20 +109,7 @@
                     </div>
                     {{-- Voucher --}}
 
-                    <div class="voucher">
-                        <div class="voucher-item">
-                            <img src="https://sieuthiyte.com.vn/data/images/San-Pham/icon-hot.gif" alt="">
-                            <p> Tặng ngay <span style="color: red; font-weight: 600;	font-size: 15px;">Voucher 200.000k</span> khi mua Sản phẩm Wellmed DO2-5A (Thời gian Chương trình đến hết 30/10/2023). </p>
-                        </div>
-                        <div class="voucher-item">
-                            <img src="https://sieuthiyte.com.vn/data/images/tin-tuc/icon1_1.gif" alt="">
-                            <p> Voucher được áp dụng cho <span style="color: rgb(22,21,253);font-weight: 500;"> Hóa đơn sau trên 500.000₫</span> (HSD: 30 ngày kể từ thời điểm xuất hóa đơn mua hàng).</p>
-                        </div>
-                        <div class="voucher-item">
-                            <img src="https://sieuthiyte.com.vn/data/images/San-Pham/luu-y-png3.png" alt="">
-                            <p><span style="font-weight: 600">Không áp dụng </span>cho các sản phẩm đã có Voucher giảm giá. </p>
-                        </div>
-                    </div>
+                  
                  
 
 

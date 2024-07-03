@@ -57,13 +57,13 @@
                                     <li class="nav-item">
                                         <a href="{{Route('product-category.index')}}" class="nav-link {{  url()->current() == route('product-category.index')  ? 'active' : '' }}">
                                             <i class="fas fa-list-ul nav-icon"></i>
-                                            <p>Danh mục sản phẩm</p>
+                                            <p>Danh mục thú cưng</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{Route('product.index')}}" class="nav-link {{  url()->current() == route('product.index')  ? 'active' : '' }}">
                                             <i class="fab fa-product-hunt nav-icon"></i>
-                                            <p>Sản phẩm</p>
+                                            <p>Thú cưng</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">

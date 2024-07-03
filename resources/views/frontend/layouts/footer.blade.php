@@ -3,15 +3,7 @@
     <div class="container">
       <div class="slider-items-products">
         <div id="brand-logo-slider" class="product-flexslider hidden-buttons">
-          <div style="background-color: rgb(249,249,249); margin-left: 3px" class="slider-items slider-width-col6"> 
-            <div class="item"> <a href="#x"><img src="{{asset('https://sieuthiyte.com.vn/data/upload/2f/7f/872a7f2f.png')}}" alt="Image"></a> </div>
-            <div class="item"> <a href="#x"><img src="{{asset('https://sieuthiyte.com.vn/data/upload/a5/0a/d4030aa5.png')}}" alt="Image"></a> </div>
-            <div class="item"> <a href="#x"><img src="{{asset('https://sieuthiyte.com.vn/data/upload/49d23869.png')}}" alt="Image"></a> </div>
-            <div class="item"> <a href="#x"><img src="{{asset('https://sieuthiyte.com.vn/data/upload/2c6bcf66.png')}}" alt="Image"></a> </div>
-            <div class="item"> <a href="#x"><img src="{{asset('https://sieuthiyte.com.vn/data/upload/9333b515.png')}}" alt="Image"></a> </div>
-            <div class="item"> <a href="#x"><img src="{{asset('https://sieuthiyte.com.vn/data/upload/30d14be4.png')}}" alt="Image"></a> </div>
-            <div class="item"> <a href="#x"><img src="{{asset('https://sieuthiyte.com.vn/data/upload/50/b1/f31db150.png')}}" alt="Image"></a> </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -19,7 +11,7 @@
     
     <div  class="footer-middle container">
       <div class="col-md-3 col-sm-4">
-        <div style="background-color: aliceblue" class="footer-logo"><a href="index.html" title="Logo"><img src="{{asset('frontend/images/logo2.png')}}" alt="logo"></a></div>
+        <div style="" class="footer-logo"><a href="index.html" title="Logo"><img style="width: 150px" src="{{asset('frontend/images/logoc.png')}}" alt="logo"></a></div>
         <div class="payment-accept">
           
         </div>
@@ -65,7 +57,7 @@
           &nbsp;Việt Nam
           </address>
           <div class="phone-footer"><i class="phone-icon">&nbsp;</i>0999999999</div>
-          <div class="email-footer"><i class="email-icon">&nbsp;</i> <a href="">group2@st.phenikaa-uni.edu.vn</a> </div>
+          <div class="email-footer"><i class="email-icon">&nbsp;</i> <a href="">group1@st.phenikaa-uni.edu.vn</a> </div>
         </div>
       </div>
     </div>

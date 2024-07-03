@@ -14,14 +14,15 @@ class ContactController extends Controller
         $this->middleware('auth');
     }
     /**
-     * Display a listing of the resource.
+
      *
      * @return \Illuminate\Http\Response
      */
     public function index(Request $request)
     {
         $perPage = $request->has('perPage') ? $request->perPage : 8;
-        $data = ContactModel::orderBy('created_at', 'DESC')->paginate($perPage);
+        $data = ContactModel::orderBy('created_at')->paginate($perPage);
+
         return view('backend.modules.contacts.index', compact('data'));
     }
 
@@ -81,26 +82,34 @@ class ContactController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
-    {
-        $message = "";
-        $type_alert = 'success';
-        $data = ContactModel::find($id);
-        $check = $data->delete();
-        if ($check) {
-            $message = "Xóa thành công bản ghi ";
-            $type_alert = 'success';
+{
+    $message = "";
+    $type_alert = 'success';
+
+    $data = ContactModel::find($id);
+
+    if (!$data) {
+
+        $message = "Bản ghi không tồn tại.";
+        $type_alert = 'danger';
+    } else {
+                if ($data->delete()) {
+            $message = "Xóa thành công bản ghi";
         } else {
-            $message = "Có lỗi hệ thống !";
+            $message = "Có lỗi hệ thống!";
             $type_alert = 'warning';
         }
-        return redirect()->route('contact.index')
-            ->with('message', $message)
-            ->with('type_alert', $type_alert);
     }
+
+    return redirect()->route('contact.index')
+        ->with('message', $message)
+        ->with('type_alert', $type_alert);
+}
+
 }

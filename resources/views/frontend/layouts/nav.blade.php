@@ -28,7 +28,7 @@
             <a class="logo-small" title="Magento Commerce" href="#"><img alt="Magento Commerce" src="{{asset('frontend/images/logo2.png')}}" width="100px"></a>
             <ul id="nav" class="hidden-xs">
                 <li class="level0 parent drop-menu"><a href="{{Route('index')}}" class="{{url()->current() == route('index')  ? 'active' : '' }}"><span>Trang chủ</span> </a> </li>
-                <li class="level0 parent drop-menu"><a href="{{Route('product')}} " class="{{url()->current() == route('product')  ? 'active' : '' }}"><span>Sản phẩm</span> </a> </a>
+                <li class="level0 parent drop-menu"><a href="{{Route('product')}} " class="{{url()->current() == route('product')  ? 'active' : '' }}"><span>Thú cưng</span> </a> </a>
                     <ul class="level1">
                         @foreach ($cat_parent as $item)
                         <li class="level1 first parent"><a class="active" href="{{Route('product')}}?cat_id={{$item->id}}">{{$item->name}}</a>

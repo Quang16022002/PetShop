@@ -103,12 +103,12 @@
                         </div>
                     </div>
                     <br><br>
-                    <div class="popular-posts widget widget__sidebar wow" id="recent-posts-4">
+                    {{-- <div class="popular-posts widget widget__sidebar wow" id="recent-posts-4">
                         
                         <div class="widget-content">
                             <img src="frontend/images/slide11.png" alt="">
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </aside>
         </div>

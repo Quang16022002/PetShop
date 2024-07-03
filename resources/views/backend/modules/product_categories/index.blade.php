@@ -4,7 +4,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Danh sách danh mục sản phẩm</h1>
+                <h1>Danh sách danh mục thú cưng</h1>
             </div>
         </div>
         @if (session('message'))

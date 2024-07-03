@@ -17,12 +17,12 @@
     <div class="header container">
         <div class="row mid_heade">
             <div class="col-lg-2 col-sm-3 col-md-2 col-xs-12">
-                <a class="logo" title="Magento Commerce" href="{{Route('index')}}"><img alt="Magento Commerce" src="{{asset('frontend/images/logo2.png')}}" width="150px"></a>
+                <a class="logo" title="Magento Commerce" href="{{Route('index')}}"><img alt="Magento Commerce" src="{{asset('frontend/images/logoc.png')}}" width="100px"></a>
             </div>
             <div class="col-lg-7 col-sm-4 col-md-6 col-xs-12">
                 <div class="search-box">
                     <form action="{{Route('search')}}" method="GET" id="search_mini_form" name="Categories">
-                        <input type="text" placeholder="Tên sản phẩm..." maxlength="70" name="key" id="search">
+                        <input type="text" placeholder="Tên thú cưng..." maxlength="70" name="key" id="search">
                         <button style="background-color: rgb(9,88,163); border: none" id="submit-button" class="search-btn-bg"><span>Tìm kiếm</span></button>
                     </form>
                 </div>
